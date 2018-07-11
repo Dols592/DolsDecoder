@@ -186,16 +186,22 @@
     <ClInclude Include="ControlProtocolDebug.h" />
     <ClInclude Include="DDConfig.h" />
     <ClInclude Include="DDConfigControlInterface.h" />
+    <ClInclude Include="DecoderArc.h" />
     <ClInclude Include="DecoderBase.h" />
     <ClInclude Include="DecoderKiKaNew.h" />
+    <ClInclude Include="HalIface.h" />
     <ClInclude Include="StaticConfig.h" />
+    <ClInclude Include="TinyXML\tinyxml2.h" />
     <ClInclude Include="TransceiverBase.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TransceiverHWIface.h" />
+    <ClInclude Include="TransceiverHWRFM69W.h" />
     <ClInclude Include="TransceiverSimulator.h" />
     <ClInclude Include="WD.h" />
     <ClInclude Include="WDDlg.h" />
+    <ClInclude Include="HalWindows.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ControlHWBase.cpp" />
@@ -204,8 +210,15 @@
     <ClCompile Include="ControlProtocolBase.cpp" />
     <ClCompile Include="ControlProtocolDebug.cpp" />
     <ClCompile Include="DDConfig.cpp" />
+    <ClCompile Include="DecoderArc.cpp" />
     <ClCompile Include="DecoderBase.cpp" />
     <ClCompile Include="DecoderKiKaNew.cpp" />
+    <ClCompile Include="TinyXML\tinyxml2.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="TransceiverBase.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -213,9 +226,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="TransceiverHWRFM69W.cpp" />
     <ClCompile Include="TransceiverSimulator.cpp" />
     <ClCompile Include="WD.cpp" />
     <ClCompile Include="WDDlg.cpp" />
+    <ClCompile Include="HalWindows.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="WD.rc" />

@@ -1,3 +1,4 @@
+//
 #include "stdafx.h"
 #include "DecoderKiKaNew.h"
 
@@ -8,7 +9,6 @@ CDecoderKiKaNew::CDecoderKiKaNew()
   mDataEnd = 0;
   mIsDimmer = false;
 }
-
 
 CDecoderKiKaNew::~CDecoderKiKaNew()
 {
@@ -21,7 +21,7 @@ bool CDecoderKiKaNew::DecodeSignal(const SReceivedSignal& NewSignal)
   if (!DecodeBits(NewSignal)) return false;
   if (!GetMessageFromBits()) return false;
 
-  return false;
+  return true;
 }
 
 #define NUMBER_OF_EDGES_SWITCH  128
@@ -96,13 +96,13 @@ bool CDecoderKiKaNew::CheckBitTiming(const SReceivedSignal& NewSignal)
   return true;
 }
 
-#define BIT_0_MIN_TIME  750
+#define BIT_SPLIT_TIME  750
 bool CDecoderKiKaNew::DecodeBits(const SReceivedSignal& NewSignal)
 {
   mBitCount = 0;
   for (int i = mDataStart; i < mDataEnd; i += 4)
   {
-    if (NewSignal.Edges[i + 1] > BIT_0_MIN_TIME)
+    if (NewSignal.Edges[i + 1] > BIT_SPLIT_TIME)
       mBits[mBitCount++] = 1;
     else
       mBits[mBitCount++] = 0;
@@ -113,10 +113,10 @@ bool CDecoderKiKaNew::DecodeBits(const SReceivedSignal& NewSignal)
 
 bool CDecoderKiKaNew::GetMessageFromBits()
 {
-  uint32_t Address = ReadUnsigned32(0, 26);
-  uint32_t Group = ReadUnsigned32(26, 1);
-  uint32_t On = ReadUnsigned32(27, 1);
-  uint32_t Unit = ReadUnsigned32(28, 4);
+  uint32_t Address = ReadUnsigned32(0, 26); // Sender address
+  uint32_t Group = ReadUnsigned32(26, 1); // Group function 1 = On, 0 = Off
+  uint32_t Action = ReadUnsigned32(27, 1); // On = 1, Off = 0, Dim = 0
+  uint32_t Key = ReadUnsigned32(28, 4); // 
   uint32_t DimmerValue = 0;
   if (mIsDimmer)
     DimmerValue = ReadUnsigned32(32, 4);
