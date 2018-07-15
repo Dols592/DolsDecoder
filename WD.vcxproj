@@ -179,6 +179,8 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DolsVersion.h" />
+    <ClInclude Include="MainInterface.h" />
     <ClInclude Include="ControlHWBase.h" />
     <ClInclude Include="ControlConnection.h" />
     <ClInclude Include="Controller.h" />
@@ -190,7 +192,7 @@
     <ClInclude Include="DecoderBase.h" />
     <ClInclude Include="DecoderKiKaNew.h" />
     <ClInclude Include="HalIface.h" />
-    <ClInclude Include="StaticConfig.h" />
+    <ClInclude Include="MainConfig.h" />
     <ClInclude Include="TinyXML\tinyxml2.h" />
     <ClInclude Include="TransceiverBase.h" />
     <ClInclude Include="Resource.h" />
@@ -206,13 +208,29 @@
   <ItemGroup>
     <ClCompile Include="ControlHWBase.cpp" />
     <ClCompile Include="ControlConnection.cpp" />
-    <ClCompile Include="Controller.cpp" />
-    <ClCompile Include="ControlProtocolBase.cpp" />
-    <ClCompile Include="ControlProtocolDebug.cpp" />
+    <ClCompile Include="Controller.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ControlProtocolBase.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ControlProtocolDebug.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="DDConfig.cpp" />
     <ClCompile Include="DecoderArc.cpp" />
     <ClCompile Include="DecoderBase.cpp" />
     <ClCompile Include="DecoderKiKaNew.cpp" />
+    <ClCompile Include="MainInterface.cpp" />
     <ClCompile Include="TinyXML\tinyxml2.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
@@ -230,7 +248,12 @@
     <ClCompile Include="TransceiverSimulator.cpp" />
     <ClCompile Include="WD.cpp" />
     <ClCompile Include="WDDlg.cpp" />
-    <ClCompile Include="HalWindows.cpp" />
+    <ClCompile Include="HalWindows.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="WD.rc" />

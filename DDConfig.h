@@ -7,6 +7,7 @@ public:
   ~CDDConfig();
 
 public: //Interface
+  void ReadFromStorage();
   void SerializeToBinaryBlob();
   void DeSerialize();
   

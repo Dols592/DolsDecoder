@@ -1,7 +1,12 @@
 //
-#include "stdafx.h"
 
 #include "HalWindows.h"
+
+#include <stdio.h>
+#include <stdlib.h>   
+#include <string.h>
+
+#ifdef HAL_WINDOWS
 
 CHalWindows::CHalWindows()
 {
@@ -62,3 +67,4 @@ void CHalWindows::WriteConfigFileToStorage(char* XmlData)
   fclose(ConfigFile);
 }
 
+#endif

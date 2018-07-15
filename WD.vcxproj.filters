@@ -9,65 +9,68 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\10 Main">
+    <Filter Include="Source Files\1 Main">
       <UniqueIdentifier>{6b2d9f0a-1d7e-442b-8dfe-bdda83b2c88b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\20 Dialogs">
+    <Filter Include="Source Files\2 Dialogs">
       <UniqueIdentifier>{6b2e5ef8-6e3a-4151-b25a-71e3e00ffa0e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\30 Main Controller">
+    <Filter Include="Source Files\3 Main Controller">
       <UniqueIdentifier>{1b954342-6b47-4d77-ad92-775572357ad5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\30 Main Controller\30 ControlInterfaces">
-      <UniqueIdentifier>{de2a1ab6-9c9e-4ac6-820a-14eaf797acda}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\30 Main Controller\30 ControlInterfaces\Main">
-      <UniqueIdentifier>{11f5af24-fa46-439f-b2f7-6098fd91c9b4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\30 Main Controller\30 ControlInterfaces\Protocolls">
-      <UniqueIdentifier>{4710be88-32a8-4ccb-ae3e-2ee0ac6a9195}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\30 Main Controller\30 ControlInterfaces\Hardware">
-      <UniqueIdentifier>{e132e43c-6334-4838-80fc-7d1308044f97}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\30 Main Controller\40 Transceivers">
-      <UniqueIdentifier>{e1496e65-ae12-4ca2-82d8-1f6fd90618be}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\30 Main Controller\50 Decoders">
-      <UniqueIdentifier>{1aabef92-8678-46f3-9091-796a65011ff5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\30 Main Controller\10 Config">
+    <Filter Include="Source Files\3 Main Controller\10 Config">
       <UniqueIdentifier>{2f79df4b-6c5f-4503-be20-c89acd394f2e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\30 Main Controller\40 Transceivers\Main">
-      <UniqueIdentifier>{7d930f13-e94d-466b-8a77-343e83f0dc05}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\30 Main Controller\40 Transceivers\Base">
-      <UniqueIdentifier>{d954c936-8f3c-4083-89ca-30f0257aa8d1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\30 Main Controller\40 Transceivers\Implementations">
-      <UniqueIdentifier>{470568b2-df5f-4454-91de-01fb0472b580}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\30 Main Controller\40 Transceivers\Hardware">
-      <UniqueIdentifier>{daedb3b0-a303-4538-a3d0-ebb7622da86f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\30 Main Controller\50 Decoders\Base">
-      <UniqueIdentifier>{1227df83-5c1f-49b7-94a2-68daec66c420}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\30 Main Controller\50 Decoders\Implementations">
-      <UniqueIdentifier>{1c4d7578-9a61-4d3e-a1eb-0f8150bf8150}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\30 Main Controller\10 Config\TinyXML">
+    <Filter Include="Source Files\3 Main Controller\10 Config\TinyXML">
       <UniqueIdentifier>{458e7618-3c57-46cc-aac7-c30a5390e85c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\30 Main Controller\20 HAL">
+    <Filter Include="Source Files\3 Main Controller\20 HAL">
       <UniqueIdentifier>{d577c768-ce88-4f4f-b2e0-517fc8d76c54}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\30 Main Controller\20 HAL\Base">
+    <Filter Include="Source Files\3 Main Controller\20 HAL\Base">
       <UniqueIdentifier>{4c418ea3-bfa6-493f-8717-81b36ab0f798}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\30 Main Controller\20 HAL\Implementations">
+    <Filter Include="Source Files\3 Main Controller\20 HAL\Implementations">
       <UniqueIdentifier>{9a24243f-d816-4c02-b0e4-b004f4b045ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Main Controller\30 Controller">
+      <UniqueIdentifier>{bb690d4c-63da-4817-b592-13b51faf9ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Main Controller\30 Controller\100 ControlInterfaces">
+      <UniqueIdentifier>{de2a1ab6-9c9e-4ac6-820a-14eaf797acda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Main Controller\30 Controller\100 ControlInterfaces\Main">
+      <UniqueIdentifier>{11f5af24-fa46-439f-b2f7-6098fd91c9b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Main Controller\30 Controller\100 ControlInterfaces\Protocolls">
+      <UniqueIdentifier>{4710be88-32a8-4ccb-ae3e-2ee0ac6a9195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Main Controller\30 Controller\100 ControlInterfaces\Hardware">
+      <UniqueIdentifier>{e132e43c-6334-4838-80fc-7d1308044f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Main Controller\30 Controller\200 Transceivers">
+      <UniqueIdentifier>{e1496e65-ae12-4ca2-82d8-1f6fd90618be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Main Controller\30 Controller\200 Transceivers\Main">
+      <UniqueIdentifier>{7d930f13-e94d-466b-8a77-343e83f0dc05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Main Controller\30 Controller\200 Transceivers\Base">
+      <UniqueIdentifier>{d954c936-8f3c-4083-89ca-30f0257aa8d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Main Controller\30 Controller\200 Transceivers\Implementations">
+      <UniqueIdentifier>{470568b2-df5f-4454-91de-01fb0472b580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Main Controller\30 Controller\200 Transceivers\Hardware">
+      <UniqueIdentifier>{daedb3b0-a303-4538-a3d0-ebb7622da86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Main Controller\30 Controller\300 Decoders">
+      <UniqueIdentifier>{1aabef92-8678-46f3-9091-796a65011ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Main Controller\30 Controller\300 Decoders\Base">
+      <UniqueIdentifier>{1227df83-5c1f-49b7-94a2-68daec66c420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Main Controller\30 Controller\300 Decoders\Implementations">
+      <UniqueIdentifier>{1c4d7578-9a61-4d3e-a1eb-0f8150bf8150}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -75,123 +78,132 @@
       <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="WDDlg.h">
-      <Filter>Source Files\20 Dialogs</Filter>
+      <Filter>Source Files\2 Dialogs</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
-      <Filter>Source Files\10 Main</Filter>
+      <Filter>Source Files\1 Main</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
-      <Filter>Source Files\10 Main</Filter>
+      <Filter>Source Files\1 Main</Filter>
     </ClInclude>
     <ClInclude Include="WD.h">
-      <Filter>Source Files\10 Main</Filter>
+      <Filter>Source Files\1 Main</Filter>
     </ClInclude>
     <ClInclude Include="DDConfig.h">
-      <Filter>Source Files\30 Main Controller\10 Config</Filter>
+      <Filter>Source Files\3 Main Controller\10 Config</Filter>
     </ClInclude>
     <ClInclude Include="DDConfigControlInterface.h">
-      <Filter>Source Files\30 Main Controller\10 Config</Filter>
-    </ClInclude>
-    <ClInclude Include="Controller.h">
-      <Filter>Source Files\30 Main Controller</Filter>
-    </ClInclude>
-    <ClInclude Include="StaticConfig.h">
-      <Filter>Source Files\30 Main Controller</Filter>
+      <Filter>Source Files\3 Main Controller\10 Config</Filter>
     </ClInclude>
     <ClInclude Include="ControlProtocolDebug.h">
-      <Filter>Source Files\30 Main Controller\30 ControlInterfaces\Protocolls</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\100 ControlInterfaces\Protocolls</Filter>
     </ClInclude>
     <ClInclude Include="ControlProtocolBase.h">
-      <Filter>Source Files\30 Main Controller\30 ControlInterfaces\Protocolls</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\100 ControlInterfaces\Protocolls</Filter>
     </ClInclude>
     <ClInclude Include="ControlHWBase.h">
-      <Filter>Source Files\30 Main Controller\30 ControlInterfaces\Hardware</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\100 ControlInterfaces\Hardware</Filter>
     </ClInclude>
     <ClInclude Include="ControlConnection.h">
-      <Filter>Source Files\30 Main Controller\30 ControlInterfaces\Main</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\100 ControlInterfaces\Main</Filter>
     </ClInclude>
     <ClInclude Include="TransceiverBase.h">
-      <Filter>Source Files\30 Main Controller\40 Transceivers\Base</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\200 Transceivers\Base</Filter>
     </ClInclude>
     <ClInclude Include="TransceiverSimulator.h">
-      <Filter>Source Files\30 Main Controller\40 Transceivers\Implementations</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\200 Transceivers\Implementations</Filter>
     </ClInclude>
     <ClInclude Include="TransceiverHWIface.h">
-      <Filter>Source Files\30 Main Controller\40 Transceivers\Hardware</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\200 Transceivers\Hardware</Filter>
     </ClInclude>
     <ClInclude Include="TransceiverHWRFM69W.h">
-      <Filter>Source Files\30 Main Controller\40 Transceivers\Hardware</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\200 Transceivers\Hardware</Filter>
     </ClInclude>
     <ClInclude Include="DecoderBase.h">
-      <Filter>Source Files\30 Main Controller\50 Decoders\Base</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\300 Decoders\Base</Filter>
     </ClInclude>
     <ClInclude Include="DecoderArc.h">
-      <Filter>Source Files\30 Main Controller\50 Decoders\Implementations</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\300 Decoders\Implementations</Filter>
     </ClInclude>
     <ClInclude Include="DecoderKiKaNew.h">
-      <Filter>Source Files\30 Main Controller\50 Decoders\Implementations</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\300 Decoders\Implementations</Filter>
     </ClInclude>
     <ClInclude Include="TinyXML\tinyxml2.h">
-      <Filter>Source Files\30 Main Controller\10 Config\TinyXML</Filter>
+      <Filter>Source Files\3 Main Controller\10 Config\TinyXML</Filter>
     </ClInclude>
     <ClInclude Include="HalIface.h">
-      <Filter>Source Files\30 Main Controller\20 HAL\Base</Filter>
+      <Filter>Source Files\3 Main Controller\20 HAL\Base</Filter>
     </ClInclude>
     <ClInclude Include="HalWindows.h">
-      <Filter>Source Files\30 Main Controller\20 HAL\Implementations</Filter>
+      <Filter>Source Files\3 Main Controller\20 HAL\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Source Files\3 Main Controller\30 Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MainInterface.h">
+      <Filter>Source Files\3 Main Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MainConfig.h">
+      <Filter>Source Files\3 Main Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="DolsVersion.h">
+      <Filter>Source Files\3 Main Controller</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WDDlg.cpp">
-      <Filter>Source Files\20 Dialogs</Filter>
+      <Filter>Source Files\2 Dialogs</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files\10 Main</Filter>
+      <Filter>Source Files\1 Main</Filter>
     </ClCompile>
     <ClCompile Include="WD.cpp">
-      <Filter>Source Files\10 Main</Filter>
+      <Filter>Source Files\1 Main</Filter>
     </ClCompile>
     <ClCompile Include="DDConfig.cpp">
-      <Filter>Source Files\30 Main Controller\10 Config</Filter>
-    </ClCompile>
-    <ClCompile Include="Controller.cpp">
-      <Filter>Source Files\30 Main Controller</Filter>
+      <Filter>Source Files\3 Main Controller\10 Config</Filter>
     </ClCompile>
     <ClCompile Include="ControlProtocolDebug.cpp">
-      <Filter>Source Files\30 Main Controller\30 ControlInterfaces\Protocolls</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\100 ControlInterfaces\Protocolls</Filter>
     </ClCompile>
     <ClCompile Include="ControlProtocolBase.cpp">
-      <Filter>Source Files\30 Main Controller\30 ControlInterfaces\Protocolls</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\100 ControlInterfaces\Protocolls</Filter>
     </ClCompile>
     <ClCompile Include="ControlHWBase.cpp">
-      <Filter>Source Files\30 Main Controller\30 ControlInterfaces\Hardware</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\100 ControlInterfaces\Hardware</Filter>
     </ClCompile>
     <ClCompile Include="ControlConnection.cpp">
-      <Filter>Source Files\30 Main Controller\30 ControlInterfaces\Main</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\100 ControlInterfaces\Main</Filter>
     </ClCompile>
     <ClCompile Include="TransceiverBase.cpp">
-      <Filter>Source Files\30 Main Controller\40 Transceivers\Base</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\200 Transceivers\Base</Filter>
     </ClCompile>
     <ClCompile Include="TransceiverSimulator.cpp">
-      <Filter>Source Files\30 Main Controller\40 Transceivers\Implementations</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\200 Transceivers\Implementations</Filter>
     </ClCompile>
     <ClCompile Include="TransceiverHWRFM69W.cpp">
-      <Filter>Source Files\30 Main Controller\40 Transceivers\Hardware</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\200 Transceivers\Hardware</Filter>
     </ClCompile>
     <ClCompile Include="DecoderBase.cpp">
-      <Filter>Source Files\30 Main Controller\50 Decoders\Base</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\300 Decoders\Base</Filter>
     </ClCompile>
     <ClCompile Include="DecoderArc.cpp">
-      <Filter>Source Files\30 Main Controller\50 Decoders\Implementations</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\300 Decoders\Implementations</Filter>
     </ClCompile>
     <ClCompile Include="DecoderKiKaNew.cpp">
-      <Filter>Source Files\30 Main Controller\50 Decoders\Implementations</Filter>
+      <Filter>Source Files\3 Main Controller\30 Controller\300 Decoders\Implementations</Filter>
     </ClCompile>
     <ClCompile Include="TinyXML\tinyxml2.cpp">
-      <Filter>Source Files\30 Main Controller\10 Config\TinyXML</Filter>
+      <Filter>Source Files\3 Main Controller\10 Config\TinyXML</Filter>
     </ClCompile>
     <ClCompile Include="HalWindows.cpp">
-      <Filter>Source Files\30 Main Controller\20 HAL\Implementations</Filter>
+      <Filter>Source Files\3 Main Controller\20 HAL\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files\3 Main Controller\30 Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MainInterface.cpp">
+      <Filter>Source Files\3 Main Controller</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

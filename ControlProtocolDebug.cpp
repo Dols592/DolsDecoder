@@ -2,7 +2,7 @@
 #include "stdafx.h"
 #include "ControlProtocolDebug.h"
 
-#include "StaticConfig.h"
+//#include "StaticConfig.h"
 #include "ControlConnection.h"
 
 CControlProtocolDebug::CControlProtocolDebug(IControlProtocol* ParentInterface)
@@ -55,7 +55,7 @@ void CControlProtocolDebug::ProcessIncommingCommand()
   if (strcmp(mLineBuffer, "VER") == 0)
   {
     char VersionString[_MAX_ITOSTR_BASE10_COUNT];
-    _itoa_s(DD_VERSION, VersionString, _MAX_ITOSTR_BASE10_COUNT, 10);
+    //_itoa_s(DD_VERSION, VersionString, _MAX_ITOSTR_BASE10_COUNT, 10);
     mParentInterface->AddOutgoingStringToControlConnection("Version ");
     mParentInterface->AddOutgoingStringToControlConnection(VersionString);
     mParentInterface->AddOutgoingStringToControlConnection("\r\n");
